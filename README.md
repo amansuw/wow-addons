@@ -18,3 +18,7 @@
 /dismount
 /cast Disenchant
 /click DeM
+
+<!-- Straight up disenchants mentioned item -->
+/cast disenchant
+/use Black Mageweave Leggings
