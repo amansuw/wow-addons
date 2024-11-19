@@ -11,9 +11,9 @@ NPC Scan, Ackis Recipe List, ACP, Addon Loader, Afflicted, Archy, Arena Spy, Ark
 # ElvUI/WeakAuras Profiles
 > Created on 16:10 aspect ratio (1440 x 900px)
 - ElvUI-2.94 Heal | WeakAuras-3.2.3 Holy Paladin
--- Party frame ![Party frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-Party.jpg)
--- 10 Man frame ![10 Man Raid frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-10Man.jpg)
--- 25 Man frame ![25 Man Raid frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-25Man.jpg)
+    - Party frame ![Party frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-Party.jpg)
+    - 10 Man frame ![10 Man Raid frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-10Man.jpg)
+    - 25 Man frame ![25 Man Raid frame.](https://github.com/amansuw/wow-addons/blob/main/Profiles/Heal-HolyPaladinWA-25Man.jpg)
 
 - ElvUI-2.94 DPS/Tank - WeakAuras-3.2.3 Unholy Death Knight
 ![Unholy DK with Pet Frame updated.](https://github.com/amansuw/wow-addons/blob/main/Profiles/DPS-UnholyDKWA.jpg)
