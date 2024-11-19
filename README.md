@@ -19,22 +19,24 @@ NPC Scan, Ackis Recipe List, ACP, Addon Loader, Afflicted, Archy, Arena Spy, Ark
 ![Unholy DK with Pet Frame updated.](https://github.com/amansuw/wow-addons/blob/main/Profiles/DPS-UnholyDKWA.jpg)
 
 # Enchanting Macros
-<!-- Auto Enchant Macro -->
-<!-- Enchants currently selected enchant to appropriate Item slot and replaces existing enchant as well. -->
-<!-- If mouse if hovered over an Item then it'll try to enchant that item instead -->
-#show enchanting
-/script DoTradeSkill(GetTradeSkillSelectionIndex());
-/run GetMouseFocus():Click()
-/script ReplaceEnchant();
-/click StaticPopup1Button1
+```
+Auto Enchant Macro
+Enchants currently selected enchant to appropriate Item slot and replaces existing enchant as well.
+If mouse if hovered over an Item then it'll try to enchant that item instead
+```
+#show enchanting <br>
+/script DoTradeSkill(GetTradeSkillSelectionIndex()); <br>
+/run GetMouseFocus():Click() <br>
+/script ReplaceEnchant(); <br>
+/click StaticPopup1Button1 <br>
 
 <!-- Disenchant Hovered Item -->
-#showtooltip Disenchant
-/run local f=DeM or CreateFrame("Button","DeM",nil,"SecureActionButtonTemplate") f:SetAttribute("type","click") f:SetAttribute("clickbutton",GetMouseFocus())
-/dismount
-/cast Disenchant
-/click DeM
+#showtooltip Disenchant <br>
+/run local f=DeM or CreateFrame("Button","DeM",nil,"SecureActionButtonTemplate") f:SetAttribute("type","click") f:SetAttribute("clickbutton",GetMouseFocus()) <br>
+/dismount <br>
+/cast Disenchant <br>
+/click DeM <br>
 
 <!-- Straight up disenchants mentioned item -->
-/cast disenchant
-/use Black Mageweave Leggings
+/cast disenchant <br>
+/use Black Mageweave Leggings <br>
